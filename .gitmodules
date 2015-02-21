@@ -1,0 +1,6 @@
+[submodule "dependencies/MonoGame"]
+	path = dependencies/MonoGame
+	url = https://xposure@github.com/xposure/MonoGame
+[submodule "dependencies/EasyTabs"]
+	path = dependencies/EasyTabs
+	url = https://xposure@github.com/xposure/EasyTabs.git
