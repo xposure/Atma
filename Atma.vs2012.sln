@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atma", "source\core\Atma\Atma.csproj", "{6759EF41-9D4C-4FBF-9065-826DE2F1133D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FB95A1C7-A85C-4243-80F5-7E2BA287422F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{903564E3-D824-42B9-B788-20F88FD7C1D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyTabs", "dependencies\EasyTabs\EasyTabs.csproj", "{690BA0F7-D8FE-4EBE-BA39-8058086C7A09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.WindowsGL", "dependencies\MonoGame\MonoGame.Framework\MonoGame.Framework.WindowsGL.csproj", "{6D75E618-19CA-4C51-9546-F10965FBC0B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atma.Editor", "source\core\Atma.Editor\Atma.Editor.csproj", "{BF2F2206-60EE-4678-8D3F-47953FBA8EB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6759EF41-9D4C-4FBF-9065-826DE2F1133D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6759EF41-9D4C-4FBF-9065-826DE2F1133D}.Debug|x86.ActiveCfg = Debug|x86
+		{6759EF41-9D4C-4FBF-9065-826DE2F1133D}.Debug|x86.Build.0 = Debug|x86
+		{6759EF41-9D4C-4FBF-9065-826DE2F1133D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6759EF41-9D4C-4FBF-9065-826DE2F1133D}.Release|x86.ActiveCfg = Release|x86
+		{690BA0F7-D8FE-4EBE-BA39-8058086C7A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690BA0F7-D8FE-4EBE-BA39-8058086C7A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690BA0F7-D8FE-4EBE-BA39-8058086C7A09}.Debug|x86.ActiveCfg = Debug|x86
+		{690BA0F7-D8FE-4EBE-BA39-8058086C7A09}.Debug|x86.Build.0 = Debug|x86
+		{690BA0F7-D8FE-4EBE-BA39-8058086C7A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690BA0F7-D8FE-4EBE-BA39-8058086C7A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690BA0F7-D8FE-4EBE-BA39-8058086C7A09}.Release|x86.ActiveCfg = Release|x86
+		{690BA0F7-D8FE-4EBE-BA39-8058086C7A09}.Release|x86.Build.0 = Release|x86
+		{6D75E618-19CA-4C51-9546-F10965FBC0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D75E618-19CA-4C51-9546-F10965FBC0B8}.Debug|x86.ActiveCfg = Debug|x86
+		{6D75E618-19CA-4C51-9546-F10965FBC0B8}.Debug|x86.Build.0 = Debug|x86
+		{6D75E618-19CA-4C51-9546-F10965FBC0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D75E618-19CA-4C51-9546-F10965FBC0B8}.Release|x86.ActiveCfg = Release|x86
+		{BF2F2206-60EE-4678-8D3F-47953FBA8EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2F2206-60EE-4678-8D3F-47953FBA8EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2F2206-60EE-4678-8D3F-47953FBA8EB3}.Debug|x86.ActiveCfg = Debug|x86
+		{BF2F2206-60EE-4678-8D3F-47953FBA8EB3}.Debug|x86.Build.0 = Debug|x86
+		{BF2F2206-60EE-4678-8D3F-47953FBA8EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2F2206-60EE-4678-8D3F-47953FBA8EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2F2206-60EE-4678-8D3F-47953FBA8EB3}.Release|x86.ActiveCfg = Release|x86
+		{BF2F2206-60EE-4678-8D3F-47953FBA8EB3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6759EF41-9D4C-4FBF-9065-826DE2F1133D} = {FB95A1C7-A85C-4243-80F5-7E2BA287422F}
+		{BF2F2206-60EE-4678-8D3F-47953FBA8EB3} = {FB95A1C7-A85C-4243-80F5-7E2BA287422F}
+		{690BA0F7-D8FE-4EBE-BA39-8058086C7A09} = {903564E3-D824-42B9-B788-20F88FD7C1D2}
+		{6D75E618-19CA-4C51-9546-F10965FBC0B8} = {903564E3-D824-42B9-B788-20F88FD7C1D2}
+	EndGlobalSection
+EndGlobal
